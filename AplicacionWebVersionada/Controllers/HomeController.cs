@@ -8,6 +8,10 @@ public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
 
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="logger">Este es ejemplo de clase</param>
     public HomeController(ILogger<HomeController> logger)
     {
         _logger = logger;
@@ -17,6 +21,11 @@ public class HomeController : Controller
     {
         return View();
     }
+
+    /// <summary>
+    /// Ejemplo de la clase
+    /// </summary>
+    /// <returns> View </returns>
 
     public IActionResult Privacy()
     {
